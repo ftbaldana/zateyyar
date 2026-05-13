@@ -128,7 +128,7 @@
     var isIOSChrome = winNav.userAgent.match("CriOS");
     var isChrome =  isIOSChrome || (isChromium !== null && typeof isChromium !== "undefined" && vendorName === "Google Inc." && isOpera === false && isIEedge === false);
     
-    var buildUrl = "https://cdn.jsdelivr.net/gh/ftbaldana/zateyyar@main/Build";
+    var buildUrl = "https://cdn.jsdelivr.net/gh/ftbaldana/zateyyar@d13d506/Build";
     var loaderUrl = buildUrl + "/Flappy_Basketball.loader.js";
     var config = {
         dataUrl: buildUrl + "/Flappy_Basketball.data",
